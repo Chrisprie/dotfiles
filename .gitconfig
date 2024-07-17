@@ -1,0 +1,6 @@
+[user]
+	signingkey = 4ED16CB6BDD0FCB6
+	name = Christian Priess
+	email = chrisprie2000@gmail.com
+[commit]
+	gpgsign = true
