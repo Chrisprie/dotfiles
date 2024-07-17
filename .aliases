@@ -23,12 +23,9 @@ if [ ! -f "$FILE" ]; then
     if [ "$response" != "${response#[Yy]}" ] ;then
         # Install kubectl auto completion
         kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null
-        # Install auto completion for k alias
-        complete -o default -F __start_kubectl k
         echo '#####################################'
         echo '# kubectl auto completion installed #'
         echo '# Please restart your terminal      #'
         echo '#####################################'
     fi
 fi
-

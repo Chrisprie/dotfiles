@@ -8,7 +8,7 @@ This repo contains config files for different tools. The dotfiles are provisione
 ## Setup dotfiles
 ```
 cd ~
-git clone git clone git@github.com:Chrisprie/dotfiles.git
+git clone https://gitlab.devops.telekom.de/christian.priess/dotfiles.git
 ```
 Navigate into dotfile folder:
 ```
@@ -16,7 +16,7 @@ cd dotfiles
 ```
 Install stow:
 ```
-sudo apt-install stow
+sudo apt-get install stow
 ``` 
 
 Use stow to create symlinks from home directory to dotfiles folder:

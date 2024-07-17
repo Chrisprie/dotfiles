@@ -4,3 +4,7 @@
 	email = chrisprie2000@gmail.com
 [commit]
 	gpgsign = true
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
