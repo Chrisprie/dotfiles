@@ -120,3 +120,9 @@ fi
 if [ -f ~/.aliases ]; then
   source ~/.aliases
 fi
+
+
+export KUBECONFIG=~/.kube/config
+
+# Exporting gpg needed variable
+export GPG_TTY=$(tty)
